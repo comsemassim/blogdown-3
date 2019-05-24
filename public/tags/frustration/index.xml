@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>frustration on comsemassim</title>
+    <link>/tags/frustration/</link>
+    <description>Recent content in frustration on comsemassim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/frustration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Failure</title>
+      <link>/post/failure/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/failure/</guid>
+      <description>Today I failed. I’m not used to failing, usually I’m pretty good at stuff and honestly I’m very dissapointed at myself.
+Let me give you some context. I am a master’s student and I’m at a congress right now. What happened is that I had had 1 submitted an abstract to the scientific committe and it was accepted in the abstract category. It wasn’t clear if I shoul make a banner of an presentation so I sent an email to the organizing committee and received no reply, a week later I sent another email and still no response.</description>
+    </item>
+    
+  </channel>
+</rss>

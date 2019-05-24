@@ -1,0 +1,68 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "comsemassim"
+theme = "blackburn"
+author = ""
+copyright = "&copy; 2019"
+canonifyurls = true
+paginate = 10
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[indexes]
+  tag = "tags"
+  topic = "categories"
+
+[params]
+  # Shown in the home page
+  subtitle = "a child's nonsensical phrase"
+  brand = "comsemassim"
+  googleAnalytics = "UA-25308471-2"
+  disqus = "comsemassim-1"
+  # CSS name for highlight.js
+  highlightjs = "androidstudio"
+  dateFormat = "2006 - Jan - 02"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "Home"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 1
+    identifier = "home"
+    url = "/"
+  [[menu.main]]
+    name = "Posts"
+    pre = "<i class='fa fa-list fa-fw'></i>"
+    weight = 2
+    identifier = "post"
+    url = "/post/"
+  [[menu.main]]
+    name = "About"
+    pre = "<i class='fa fa-user fa-fw'></i>"
+    weight = 3
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Contact"
+    pre = "<i class='fa fa-phone fa-fw'></i>"
+    weight = 4
+    url = "/contact/"
+  [[menu.main]]
+    name = "Categories"
+    pre = "<i class= 'fa fa-folder fa-fw'></i>"
+    weight = 5
+    url = "/categories/"
+  [[menu.main]]
+    name = "Tags"
+    pre = "<i class= 'fa fa-tags fa-fw'></i>"
+    weight = 6
+    url = "/tags/"
+
+[social]
+  # Link your social networking accouns to the side menu
+  # by entering your username or ID.
+  twitter = "comsemassim"
+  instagram = "lucas_carmo"
+  github = "comsemassim"
+  #stackoverflow = "*"
+  #linkedin = "*"

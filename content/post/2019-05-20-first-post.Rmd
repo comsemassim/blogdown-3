@@ -1,0 +1,65 @@
+---
+title: "First Post"
+author: "Lucas C. Lima"
+date: '2019-05-15'
+slug: first-post
+tags: ["test"]
+categories: ["personal"]
+---
+
+# First post
+
+I started this blog this day. 
+
+I have links for social media. Most of it is in portuguese, since I'm Brazillian. The main objective of the blog is to post pictures and some data exploration as I'm into learning data science.
+
+## Photos
+
+My photos are most likely hosted on [flickr](https://www.flickr.com) and you'll be able to check it out by clicking on the icon on the sidebar.[^3] 
+
+## Equations
+
+One of the reasons I choose to use `R` and the `blogdown` package was because I'm a little familiar with `Rmarkdown` language and this way I have support to $\LaTeX$ equations such as $E = mc^2$. Or more complex ones:
+
+$$G_{\mu v} = R_{\mu v} - \frac{1}{2}Rg_{\mu v}$$
+
+## Code
+
+It is possible to show code as well
+
+```{r}
+x <- rnorm(100,2,0.1)
+y <- rnorm(100,5,0.1)
+print(x)
+
+```
+
+Although code highlighting is not yet perfect, specially for `R`.[^2]
+
+If I try to print something in python it it gives a different aestetics
+
+```{python, python.reticulate = FALSE}
+x = (3.14,4.345,5.36,6.746,7.373,7.245,8.3746)
+y = (234,645,756,86,96,345,234)
+
+print(x)
+```
+
+## Typography
+
+It's easy to use *italics* and __bold__, as well as `mono` and ~~strikethrough~~, ~sub~ and ^super^ script which make it easier to write chemical formulas (C~10~H~15~N) and more[^1].
+
+[^1]: Just wanted to show footnotes.
+
+***
+## Plots
+
+Let me plot a simple scatterplot of `x` and `y` with base `R` to show the capabilities of `blogdown::`
+
+```{r}
+plot(x,y)
+```
+
+[^2]: EDIT: highlighting was not working when I was using a different HUGO theme that did not cointained the correct `highlight.js` options for `R` language. It seems to be working perfectly now.
+
+[^3]: Not really, i'm still working on the blog theme so there could still be some layout problems.

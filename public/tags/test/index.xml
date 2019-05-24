@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on comsemassim</title>
+    <link>/tags/test/</link>
+    <description>Recent content in test on comsemassim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>/post/first-post/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>First postI started this blog this day.
+I have links for social media. Most of it is in portuguese, since I’m Brazillian. The main objective of the blog is to post pictures and some data exploration as I’m into learning data science.
+PhotosMy photos are most likely hosted on flickr and you’ll be able to check it out by clicking on the icon on the sidebar.1
+EquationsOne of the reasons I choose to use R and the blogdown package was because I’m a little familiar with Rmarkdown language and this way I have support to \(\LaTeX\) equations such as \(E = mc^2\).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,73 @@
+---
+title: "First Post"
+author: "Lucas C. Lima"
+date: '2019-05-15'
+slug: first-post
+tags: ["test"]
+categories: ["personal"]
+---
+
+
+
+<div id="first-post" class="section level1">
+<h1>First post</h1>
+<p>I started this blog this day.</p>
+<p>I have links for social media. Most of it is in portuguese, since I’m Brazillian. The main objective of the blog is to post pictures and some data exploration as I’m into learning data science.</p>
+<div id="photos" class="section level2">
+<h2>Photos</h2>
+<p>My photos are most likely hosted on <a href="https://www.flickr.com">flickr</a> and you’ll be able to check it out by clicking on the icon on the sidebar.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+</div>
+<div id="equations" class="section level2">
+<h2>Equations</h2>
+<p>One of the reasons I choose to use <code>R</code> and the <code>blogdown</code> package was because I’m a little familiar with <code>Rmarkdown</code> language and this way I have support to <span class="math inline">\(\LaTeX\)</span> equations such as <span class="math inline">\(E = mc^2\)</span>. Or more complex ones:</p>
+<p><span class="math display">\[G_{\mu v} = R_{\mu v} - \frac{1}{2}Rg_{\mu v}\]</span></p>
+</div>
+<div id="code" class="section level2">
+<h2>Code</h2>
+<p>It is possible to show code as well</p>
+<pre class="r"><code>x &lt;- rnorm(100,2,0.1)
+y &lt;- rnorm(100,5,0.1)
+print(x)</code></pre>
+<pre><code>##   [1] 2.031852 1.956862 2.168718 2.019099 1.921009 1.823126 1.807916
+##   [8] 1.898869 1.945284 1.895968 2.149148 1.981664 1.892159 1.894852
+##  [15] 2.112836 2.169717 2.031558 1.903497 2.102473 2.090989 2.054208
+##  [22] 2.200130 1.904687 1.960781 2.050253 2.004110 2.041841 1.972347
+##  [29] 1.977217 2.023486 2.086505 1.944486 2.096680 1.955269 1.945007
+##  [36] 1.884698 1.990552 2.187435 1.960025 1.915415 1.989419 1.964662
+##  [43] 2.025200 1.808803 2.063988 2.017643 2.021933 1.787719 2.014390
+##  [50] 2.048259 1.967263 2.117811 2.018538 2.019315 2.151455 2.058349
+##  [57] 2.101169 2.069602 2.057787 1.907593 2.081893 1.934483 2.084717
+##  [64] 1.985904 1.878672 1.788534 1.991936 2.118157 2.183052 2.016173
+##  [71] 2.173704 1.843757 2.017627 1.982225 1.929485 1.985714 1.988756
+##  [78] 2.087050 1.994250 1.861728 1.991720 2.029133 1.961561 2.002884
+##  [85] 2.027068 2.174108 2.054694 2.111804 1.956308 1.803870 1.952516
+##  [92] 1.990634 2.028904 2.244322 2.039684 1.857075 1.981493 2.121645
+##  [99] 1.858107 2.051999</code></pre>
+<p>Although code highlighting is not yet perfect, specially for <code>R</code>.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>If I try to print something in python it it gives a different aestetics</p>
+<pre class="python"><code>x = (3.14,4.345,5.36,6.746,7.373,7.245,8.3746)
+y = (234,645,756,86,96,345,234)
+
+print(x)</code></pre>
+<pre><code>## (3.14, 4.345, 5.36, 6.746, 7.373, 7.245, 8.3746)</code></pre>
+</div>
+<div id="typography" class="section level2">
+<h2>Typography</h2>
+<p>It’s easy to use <em>italics</em> and <strong>bold</strong>, as well as <code>mono</code> and <del>strikethrough</del>, <sub>sub</sub> and <sup>super</sup> script which make it easier to write chemical formulas (C<sub>10</sub>H<sub>15</sub>N) and more<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
+<hr />
+</div>
+<div id="plots" class="section level2">
+<h2>Plots</h2>
+<p>Let me plot a simple scatterplot of <code>x</code> and <code>y</code> with base <code>R</code> to show the capabilities of <code>blogdown::</code></p>
+<pre class="r"><code>plot(x,y)</code></pre>
+<p><img src="/post/2019-05-20-first-post_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Not really, i’m still working on the blog theme so there could still be some layout problems.<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>EDIT: highlighting was not working when I was using a different HUGO theme that did not cointained the correct <code>highlight.js</code> options for <code>R</code> language. It seems to be working perfectly now.<a href="#fnref2" class="footnote-back">↩</a></p></li>
+<li id="fn3"><p>Just wanted to show footnotes.<a href="#fnref3" class="footnote-back">↩</a></p></li>
+</ol>
+</div>

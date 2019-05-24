@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on comsemassim</title>
+    <link>/categories/personal/</link>
+    <description>Recent content in personal on comsemassim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I am really pissed</title>
+      <link>/post/i-am-really-pissed/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/i-am-really-pissed/</guid>
+      <description>I am really pissed, let me tell you why.
+the banner questI’m at this congress in Fortaleza - Ceará - Brazil 1 and it was really not helpful on my research. I’m studying cosmetics rheology and most of the lectures were about asphalt and binding agents for pavements. That put aside I’ve had to create a banner out of thin air within 24 hours to present my work that i found out that was indeed accepted like i mentioned on the last post Failure</description>
+    </item>
+    
+    <item>
+      <title>Failure</title>
+      <link>/post/failure/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/failure/</guid>
+      <description>Today I failed. I’m not used to failing, usually I’m pretty good at stuff and honestly I’m very dissapointed at myself.
+Let me give you some context. I am a master’s student and I’m at a congress right now. What happened is that I had had 1 submitted an abstract to the scientific committe and it was accepted in the abstract category. It wasn’t clear if I shoul make a banner of an presentation so I sent an email to the organizing committee and received no reply, a week later I sent another email and still no response.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>/post/first-post/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/first-post/</guid>
+      <description>First postI started this blog this day.
+I have links for social media. Most of it is in portuguese, since I’m Brazillian. The main objective of the blog is to post pictures and some data exploration as I’m into learning data science.
+PhotosMy photos are most likely hosted on flickr and you’ll be able to check it out by clicking on the icon on the sidebar.1
+EquationsOne of the reasons I choose to use R and the blogdown package was because I’m a little familiar with Rmarkdown language and this way I have support to \(\LaTeX\) equations such as \(E = mc^2\).</description>
+    </item>
+    
+  </channel>
+</rss>
