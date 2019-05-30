@@ -34,7 +34,7 @@ eta(61.3)
 
 ```
 
-Or if you have a table of values you can define a new column with the results by creating a nw column with the calculations
+Or if you have a table of values you can define a new column with the results by creating a new column with the calculations
 
 ```{r}
 value <- c(33.4,22.3,33.4,22.4,66.5,23.00,234,098)
@@ -46,10 +46,10 @@ print(table)
 
 table$result <- table$value * 1.57 + (-11.01)
 
-kable(table, format = "latex")
+knitr::kable(table, format = "latex")
 ```
 
 There are better ways to create the results with the `apply` set of functions from base `R` but I'm trying to simplify the logic here.
 
-Anyway, i'm worried about the quality of students that are graduating. I understand that not everyone needs to learn how to code but it seems that no one understands how technology can improve their workflows.
+Anyway, I'm worried about the quality of students that are graduating. I understand that not everyone needs to learn how to code but it seems that no one understands how technology can improve their workflows.
 
