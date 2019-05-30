@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Tue, 21 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Teaching</title>
+      <link>/post/teaching/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/teaching/</guid>
+      <description>This week I had the job to teach some pharmacy undergraduate students viscosity. I had one 2 hour theoretical lecture and three 4 hour practical class. The objective of the class was to teach fluid behavior as well as some methods and equipment used to measure viscosity. I started with flow curves and ideally liquid and ideally solid materials. I did not go through viscoelasticity at all, except for the Kelvin-Voight, Maxwell and Burguers.</description>
+    </item>
     
     <item>
       <title>I am really pissed</title>
@@ -19,7 +28,7 @@
       
       <guid>/post/i-am-really-pissed/</guid>
       <description>I am really pissed, let me tell you why.
-the banner questI’m at this congress in Fortaleza - Ceará - Brazil 1 and it was really not helpful on my research. I’m studying cosmetics rheology and most of the lectures were about asphalt and binding agents for pavements. That put aside I’ve had to create a banner out of thin air within 24 hours to present my work that i found out that was indeed accepted like i mentioned on the last post Failure</description>
+the banner quest I’m at this congress in Fortaleza - Ceará - Brazil 1 and it was really not helpful on my research. I’m studying cosmetics rheology and most of the lectures were about asphalt and binding agents for pavements. That put aside I’ve had to create a banner out of thin air within 24 hours to present my work that i found out that was indeed accepted like i mentioned on the last post Failure</description>
     </item>
     
     <item>
@@ -38,10 +47,10 @@ Let me give you some context. I am a master’s student and I’m at a congress 
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/first-post/</guid>
-      <description>First postI started this blog this day.
+      <description>First post I started this blog this day.
 I have links for social media. Most of it is in portuguese, since I’m Brazillian. The main objective of the blog is to post pictures and some data exploration as I’m into learning data science.
-PhotosMy photos are most likely hosted on flickr and you’ll be able to check it out by clicking on the icon on the sidebar.1
-EquationsOne of the reasons I choose to use R and the blogdown package was because I’m a little familiar with Rmarkdown language and this way I have support to \(\LaTeX\) equations such as \(E = mc^2\).</description>
+Photos My photos are most likely hosted on flickr and you’ll be able to check it out by clicking on the icon on the sidebar.1
+ Equations One of the reasons I choose to use R and the blogdown package was because I’m a little familiar with Rmarkdown language and this way I have support to \(\LaTeX\) equations such as \(E = mc^2\).</description>
     </item>
     
   </channel>
