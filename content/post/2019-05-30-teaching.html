@@ -23,7 +23,7 @@ categories: ["personal"]
 
 eta(61.3)</code></pre>
 <pre><code>## [1] 85.231</code></pre>
-<p>Or if you have a table of values you can define a new column with the results by creating a nw column with the calculations</p>
+<p>Or if you have a table of values you can define a new column with the results by creating a new column with the calculations</p>
 <pre class="r"><code>value &lt;- c(33.4,22.3,33.4,22.4,66.5,23.00,234,098)
 sample &lt;- c(1,&quot;a&quot;,4,56,&quot;23&quot;,09, &quot;S45&quot;, 09)
 
@@ -40,57 +40,111 @@ print(table)</code></pre>
 ## 8      9  98.0</code></pre>
 <pre class="r"><code>table$result &lt;- table$value * 1.57 + (-11.01)
 
-kable(table)</code></pre>
+knitr::kable(table, format = &quot;html&quot;)</code></pre>
 <table>
 <thead>
-<tr class="header">
-<th align="left">sample</th>
-<th align="right">value</th>
-<th align="right">result</th>
+<tr>
+<th style="text-align:left;">
+sample
+</th>
+<th style="text-align:right;">
+value
+</th>
+<th style="text-align:right;">
+result
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="left">1</td>
-<td align="right">33.4</td>
-<td align="right">41.428</td>
+<tr>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:right;">
+33.4
+</td>
+<td style="text-align:right;">
+41.428
+</td>
 </tr>
-<tr class="even">
-<td align="left">a</td>
-<td align="right">22.3</td>
-<td align="right">24.001</td>
+<tr>
+<td style="text-align:left;">
+a
+</td>
+<td style="text-align:right;">
+22.3
+</td>
+<td style="text-align:right;">
+24.001
+</td>
 </tr>
-<tr class="odd">
-<td align="left">4</td>
-<td align="right">33.4</td>
-<td align="right">41.428</td>
+<tr>
+<td style="text-align:left;">
+4
+</td>
+<td style="text-align:right;">
+33.4
+</td>
+<td style="text-align:right;">
+41.428
+</td>
 </tr>
-<tr class="even">
-<td align="left">56</td>
-<td align="right">22.4</td>
-<td align="right">24.158</td>
+<tr>
+<td style="text-align:left;">
+56
+</td>
+<td style="text-align:right;">
+22.4
+</td>
+<td style="text-align:right;">
+24.158
+</td>
 </tr>
-<tr class="odd">
-<td align="left">23</td>
-<td align="right">66.5</td>
-<td align="right">93.395</td>
+<tr>
+<td style="text-align:left;">
+23
+</td>
+<td style="text-align:right;">
+66.5
+</td>
+<td style="text-align:right;">
+93.395
+</td>
 </tr>
-<tr class="even">
-<td align="left">9</td>
-<td align="right">23.0</td>
-<td align="right">25.100</td>
+<tr>
+<td style="text-align:left;">
+9
+</td>
+<td style="text-align:right;">
+23.0
+</td>
+<td style="text-align:right;">
+25.100
+</td>
 </tr>
-<tr class="odd">
-<td align="left">S45</td>
-<td align="right">234.0</td>
-<td align="right">356.370</td>
+<tr>
+<td style="text-align:left;">
+S45
+</td>
+<td style="text-align:right;">
+234.0
+</td>
+<td style="text-align:right;">
+356.370
+</td>
 </tr>
-<tr class="even">
-<td align="left">9</td>
-<td align="right">98.0</td>
-<td align="right">142.850</td>
+<tr>
+<td style="text-align:left;">
+9
+</td>
+<td style="text-align:right;">
+98.0
+</td>
+<td style="text-align:right;">
+142.850
+</td>
 </tr>
 </tbody>
 </table>
 <p>There are better ways to create the results with the <code>apply</code> set of functions from base <code>R</code> but I’m trying to simplify the logic here.</p>
-<p>Anyway, i’m worried about the quality of students that are graduating. I understand that not everyone needs to learn how to code but it seems that no one understands how technology can improve their workflows.</p>
+<p>Anyway, I’m worried about the quality of students that are graduating. I understand that not everyone needs to learn how to code but it seems that no one understands how technology can improve their workflows.</p>

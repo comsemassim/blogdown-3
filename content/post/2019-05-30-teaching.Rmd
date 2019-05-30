@@ -46,7 +46,7 @@ print(table)
 
 table$result <- table$value * 1.57 + (-11.01)
 
-knitr::kable(table, format = "latex")
+knitr::kable(table, format = "html")
 ```
 
 There are better ways to create the results with the `apply` set of functions from base `R` but I'm trying to simplify the logic here.
