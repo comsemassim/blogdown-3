@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.55.5" />
 
-  <title>Teaching &middot; comsemassim</title>
+  <title>previous posts &middot; comsemassim</title>
 
   
   
@@ -224,7 +224,7 @@
 
 
 <div class="header">
-  <h1>Teaching</h1>
+  <h1>previous posts</h1>
   <h2></h2>
 </div>
 <div class="content">
@@ -233,7 +233,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>2019 - May - 30</time>
+    <time>2019 - Jun - 01</time>
   </div>
 
   
@@ -246,7 +246,7 @@
   <div>
     <i class="fa fa-tags fa-fw"></i>
     
-      <a class="post-taxonomy-tag" href="/tags/academia">academia</a>
+      <a class="post-taxonomy-tag" href="/tags/travel">travel</a>
     
   </div>
   
@@ -257,158 +257,36 @@
   
 
 
-<p>This week I had the job to teach some pharmacy undergraduate students viscosity. I had one 2 hour theoretical lecture and three 4 hour practical class. The objective of the class was to teach fluid behavior as well as some methods and equipment used to measure viscosity. I started with <a href="http://www.wee-solve.de/en/flow-curve.html">flow curves</a> and ideally liquid and ideally solid materials. I did not go through viscoelasticity at all, except for the <a href="https://en.wikipedia.org/wiki/Kelvin%E2%80%93Voigt_material">Kelvin-Voight</a>, <a href="https://en.wikipedia.org/wiki/Maxwell_material">Maxwell</a> and <a href="https://en.wikipedia.org/wiki/Burgers_material">Burguers</a>.</p>
-<p>The lecture was 51 minutes long and it should’ve been longer but it seems that most teachers don’t really care if you’re under the schedule.</p>
-<p>To contextualize, I’m a master’s student and part of my master’s course is to teach undergraduate students about my project. So far I have not measured viscosity once, but to most people <span class="math inline">\(rheology = viscosity\)</span>. So I prepared the lecture.</p>
-<p>I has expecting the students to disrespect me and ignore me and not pay attention at all but fortunately that was not the case, although there was some frustration. I expected that after 4 years of pharmacy and pharmaceutical sciences the students would be able to know how to use the simplest of graphing and spreadsheet software but my expectations where not met.</p>
-<p>I had to watch a girl struggle against Microsoft Excel just to add a trend line on the graph and another girl claiming that she found out just <strong>yesterday</strong> how to write formulas in Excel. My frustration came from the fact that they have been studying in one of the best universities in Brazil and still don’t know how to use the most basic functions. After 4 years I find this unacceptable.</p>
-<p>I really wanted to teach them how to do those simple functions in <code>R</code> but that would be waaay over the line. Most people think that coding is just way too hard, except that to me <code>R</code> isn’t . Specially if you want to do simple operations like those.</p>
-<p>In base <code>R</code> the easiest way to write a formula is to create a function. Let’s try that.</p>
-<pre class="r"><code>eta &lt;- function(x){
-  result &lt;- x * 1.57 + (-11.01)
-  print(result)
-}
-
-eta(61.3)</code></pre>
-<pre><code>## [1] 85.231</code></pre>
-<p>Or if you have a table of values you can define a new column with the results by creating a new column with the calculations</p>
-<pre class="r"><code>value &lt;- c(33.4,22.3,33.4,22.4,66.5,23.00,234,098)
-sample &lt;- c(1,&quot;a&quot;,4,56,&quot;23&quot;,09, &quot;S45&quot;, 09)
-
-table &lt;- data.frame(sample, value)
-print(table)</code></pre>
-<pre><code>##   sample value
-## 1      1  33.4
-## 2      a  22.3
-## 3      4  33.4
-## 4     56  22.4
-## 5     23  66.5
-## 6      9  23.0
-## 7    S45 234.0
-## 8      9  98.0</code></pre>
-<pre class="r"><code>table$result &lt;- table$value * 1.57 + (-11.01)
-
-knitr::kable(table, format = &quot;html&quot;)</code></pre>
-<table>
-<thead>
-<tr>
-<th style="text-align:left;">
-sample
-</th>
-<th style="text-align:right;">
-value
-</th>
-<th style="text-align:right;">
-result
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-1
-</td>
-<td style="text-align:right;">
-33.4
-</td>
-<td style="text-align:right;">
-41.428
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-a
-</td>
-<td style="text-align:right;">
-22.3
-</td>
-<td style="text-align:right;">
-24.001
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-4
-</td>
-<td style="text-align:right;">
-33.4
-</td>
-<td style="text-align:right;">
-41.428
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-56
-</td>
-<td style="text-align:right;">
-22.4
-</td>
-<td style="text-align:right;">
-24.158
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-23
-</td>
-<td style="text-align:right;">
-66.5
-</td>
-<td style="text-align:right;">
-93.395
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-9
-</td>
-<td style="text-align:right;">
-23.0
-</td>
-<td style="text-align:right;">
-25.100
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-S45
-</td>
-<td style="text-align:right;">
-234.0
-</td>
-<td style="text-align:right;">
-356.370
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-9
-</td>
-<td style="text-align:right;">
-98.0
-</td>
-<td style="text-align:right;">
-142.850
-</td>
-</tr>
-</tbody>
-</table>
-<p>There are better ways to create the results with the <code>apply</code> set of functions from base <code>R</code> but I’m trying to simplify the logic here.</p>
-<p>Anyway, I’m worried about the quality of students that are graduating. I understand that not everyone needs to learn how to code but it seems that no one understands how technology can improve their workflows.</p>
+<p>I used to have an updated <a href="comsemassim.tumblr.com">tumblr</a> where I posted pictures and texts
+from my adventures in throughout the world and neighboring countries. I stopped doing that because uni life was getting
+hard and I was having trouble keeping it up.</p>
+<p>So in the next weeks (or weekends) I’ll be uploading my tumblr posts here and to start things up I’ll see if i can
+<code>importgraphics</code> in a way that looks beautiful and practical.</p>
+<div class="figure" style="text-align: center"><span id="fig:carros"></span>
+<img src="https://live.staticflickr.com/4699/25769231668_f7f86c9046_b_d.jpg" alt="Taken in Curitiba" width="60%" />
+<p class="caption">
+Figure 1: Taken in Curitiba
+</p>
+</div>
+<p>This photo was taken for a weekly photography challenge, the <a href="https://dogwood.photography">dogwood challenge</a>.
+It is a 52 week challenge with 3 categories: <em>story telling</em>, <em>compositional eye</em> and <em>inspiration</em>, they change every year
+and if I recall correctly photo <a href="#fig:carros">1</a> was taken as part of the <em>compositional eye</em> category, and I was supposed
+to elaborate on <a href="https://en.wikipedia.org/wiki/Complementary_colors">complementary colors</a>.</p>
+<p>To my surprise I found a blue car amidst the taxis and clicked.</p>
+<p>As i said, in the comming weeks I’ll update the site to include previous posts from my old tumblr and hope whomever is reading this likes it.</p>
 
 
   
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="/post/i-am-really-pissed/"><i class="fa fa-chevron-left"></i></a>
+    <a href="/post/teaching/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
   <div class="pure-u-10-24">
     
     <nav class="prev">
-      <a href="/post/i-am-really-pissed/">I am really pissed</a>
+      <a href="/post/teaching/">Teaching</a>
     </nav>
     
   </div>
@@ -417,14 +295,8 @@ S45
   </div>
   <div class="pure-u-10-24">
     
-    <nav class="next">
-      <a href="/post/previsous-posts/">previous posts</a>
-    </nav>
-    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
-    
-    <a href="/post/previsous-posts/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

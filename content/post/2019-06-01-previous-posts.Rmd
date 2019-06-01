@@ -1,0 +1,28 @@
+---
+title: "previous posts"
+author: "Lucas C. Lima"
+date: '2019-06-01'
+slug: previsous posts
+tags: ["travel"]
+categories: ["personal"]
+---
+
+I used to have an updated [tumblr](comsemassim.tumblr.com) where I posted pictures and texts
+from my adventures in throughout the world and neighboring countries. I stopped doing that because uni life was getting
+hard and I was having trouble keeping it up.
+
+So in the next weeks (or weekends) I'll be uploading my tumblr posts here and to start things up I'll see if i can
+`importgraphics` in a way that looks beautiful and practical.
+
+```{r carros, echo=FALSE, fig.align='center', fig.cap="Taken in Curitiba", out.width='60%'}
+knitr::include_graphics("https://live.staticflickr.com/4699/25769231668_f7f86c9046_b_d.jpg")
+```
+
+This photo was taken for a weekly photography challenge, the [dogwood challenge](https://dogwood.photography).
+It is a 52 week challenge with 3 categories: *story telling*, *compositional eye* and *inspiration*, they change every year
+and if I recall correctly photo \@ref(fig:carros) was taken as part of the *compositional eye* category, and I was supposed
+to elaborate on [complementary colors](https://en.wikipedia.org/wiki/Complementary_colors).
+
+To my surprise I found a blue car amidst the taxis and clicked.
+
+As i said, in the comming weeks I'll update the site to include previous posts from my old tumblr and hope whomever is reading this likes it.

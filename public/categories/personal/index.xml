@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>previous posts</title>
+      <link>/post/previsous-posts/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/previsous-posts/</guid>
+      <description>I used to have an updated tumblr where I posted pictures and texts from my adventures in throughout the world and neighboring countries. I stopped doing that because uni life was getting hard and I was having trouble keeping it up.
+So in the next weeks (or weekends) I’ll be uploading my tumblr posts here and to start things up I’ll see if i can importgraphics in a way that looks beautiful and practical.</description>
+    </item>
     
     <item>
       <title>Teaching</title>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>travel on comsemassim</title>
+    <link>/tags/travel/</link>
+    <description>Recent content in travel on comsemassim</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/travel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>previous posts</title>
+      <link>/post/previsous-posts/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/previsous-posts/</guid>
+      <description>I used to have an updated tumblr where I posted pictures and texts from my adventures in throughout the world and neighboring countries. I stopped doing that because uni life was getting hard and I was having trouble keeping it up.
+So in the next weeks (or weekends) I’ll be uploading my tumblr posts here and to start things up I’ll see if i can importgraphics in a way that looks beautiful and practical.</description>
+    </item>
+    
+  </channel>
+</rss>
