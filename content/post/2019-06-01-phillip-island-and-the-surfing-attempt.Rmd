@@ -1,0 +1,47 @@
+---
+title: "phillip island and the surfing attempt"
+author: Lucas C. Lima
+date: '2019-06-01'
+slug: phillip-island-and-the-surfing-attempt
+categories: ["personal"]
+tags: ["australia","travel"]
+description: '(and the pathetic timelapse)'
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, out.width = '100%', fig.align = 'center')
+```
+
+
+It was a common Saturday morning. I woke up, had breakfast and got ready to go to church. We went to the Polish church in Dandenong where the wedding was held a week ago. So far so good. Nothing out of the ordinary had happened.
+
+It happens that Emanuel has a childhood friend (if i can put it in those words) and he lives in Warragul. Now, this city is 104 km away from Melbourne so it took us a little more than an hour to get there. Wikipedia tells me that [Warragul](https://en.wikipedia.org/wiki/Warragul) is the aboriginal word for __wild dog__ but if you ask me why this city is named after that or why I found important/interesting to give you this information I wouldn’t know what to say, I just remembered that one of the guys said that while is was there. Anyway, this hour and a few minutes that we took to get there were spent sleeping and getting a really serious case of stiff neck. Was it worth it? No. I lost one of Victoria’s greatest countryside sights. Fortunately Emil is a great guy and I’ll probably have more opportunities to go there.
+
+But why does the title says Phillip Island then? We’ll get there.
+
+After lunch, which was delicious (specially Nada’s [pita](https://en.wikipedia.org/wiki/B%C3%B6rek)), everybody took a nap because that’s what everyone should do on a Saturday afternoon. Rested and pumped up with energy we went off to a park nearby with huge Eucalyptus trees and some hiking and mountain biking tracks. All my pictures were blurry and dark and crappy so after I show you this view we’ll skip to Phillip Island.
+
+The most important fact about Phillip Island is that the current Thor (Chris Hemsworth) lives there. It is also the location of Moto GP^TM^
+
+```{r island, fig.cap="Cape Woolamai"}
+knitr::include_graphics("https://live.staticflickr.com/7284/16766660698_117885f7d2_b_d.jpg")
+```
+
+Just kidding. It’s amazing how beautiful this place is. I didn’t even had to use Photoshop (That’s a lie, the gopro couldn’t get this blue tone). This photo was taken at Cape Woolamai. Where I spent the whole afternoon. The water was extremely cold and I couldn’t stay too long in it. If it weren’t for Mark borrowing me his neoprene shirt I would probably not even try to surf.
+
+```{r surfing, fig.cap="Succesfully surfing"}
+knitr::include_graphics("https://live.staticflickr.com/7640/16766834530_51f9c6a374_b_d.jpg")
+```
+
+
+I spent my day “surfing” as you can see in \@ref(fig:surfing). This was one of the pathetic attempts on trying to stand on the board and failing miserably.
+
+After many failed attempts and drinking some salt water and scratching my back on the sand and almost getting hit in the nose by the board and many other small accidents I gave up for a while and stopped to actually enjoy the place that I was at. So I went on a walk.
+
+```{r pedra, fig.cap= "Cape Woolamai"}
+knitr::include_graphics("https://live.staticflickr.com/445/20016302825_5bd7593253_b_d.jpg")
+```
+
+For now that’s it. I’ll leave you with the shortest time-lapse ever created.
+
+<iframe src="https://player.vimeo.com/video/121430894" width="800" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>

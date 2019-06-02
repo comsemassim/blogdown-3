@@ -1,0 +1,43 @@
+---
+title: "first impressions and the new friendship"
+author: "Lucas C. Lima"
+date: '2019-06-01'
+slug: first-impressions-and-the-new-friendship
+categories: ["personal"]
+tags: ["travel", "australia"]
+---
+
+__First posted 4 years ago.__
+
+__*This is it,*__ I thought as I was landing in Sydney. Suddenly my heart filled with emotion as I looked through the window and saw the Pacific Ocean for the first time. I had spent at least 30 hours inside a plane so I can’t tell if my eyes where watering because of sentiment or exhaustion but then again, it didn't mattered. I had finally arrived.
+
+Today it’s been a month since I got here in Melbourne and I’ve already met amazing people and been staying with the best hosts anyone could ask for. Their names? Emanuel and Nada.
+
+```{r emanuelnada, echo=FALSE, fig.align='center', out.width='100%', fig.cap="Emanuel and Nada taking a selfie with my GoPro"}
+knitr::include_graphics("https://live.staticflickr.com/393/19989637916_478aa0563d_b_d.jpg")
+```
+
+They graciously shared their home and food with me, as well as their friends and family that eventually became my friends and family. Without them in those first couple of days here in Melbourne would have been a little hard and lonely. Not that Melbourne (pronounced Melb'n) is a weird and complicated city with an intricate and complex transport system and cold citizens. Is just that I’m sure that coming back from a day spent at the university (or the city) to a home is much better than to a hostel. Having someone with the same interests and principles is comforting and ensuring. The couple never left me alone, specially on the weekends. I remember that on the first Saturday they took me to an Adventist Asian church called MASDAC (still don't know what the acronym means) and after that we went to lunch at Peter’s house.
+
+I’ve never been to a place with so many different nationalities. I mean, seriously. There were Bulgarians, Polish, Czechs, Serbians and I don’t remember what else. Everyone was friendly and loved the fact that I am from Brazil. Peter, our host dedicated part of his life to music and after lunch he played the violin to show that.
+
+```{r peter, echo=FALSE, fig.align='center', out.width='100%', fig.cap="Peter playing the violin"}
+knitr::include_graphics("https://live.staticflickr.com/533/20008139762_6759f85acf_b_d.jpg")
+```
+
+
+Even after that we went to Lysterfield and it was the first time I saw Kangaroos! The next day we went to a wedding. Different from all weddings I’ve had been before. For starters the whole ceremony was in polish translated to Russian (or Russian translated to polish?) and it was unfortunate that neither the groom’s and bride’s family could be there because of the conflict involving Russia and Ukraine. Nevertheless, it was a happy ceremony and an exciting reception. I even learned a new wedding game.
+
+```{r wedding, echo=FALSE, fig.align='center', out.width='100%', fig.cap="The wedding"}
+knitr::include_graphics("https://live.staticflickr.com/499/19827865788_74f4a70fc9_b_d.jpg")
+```
+
+This is only 5% of what I’ve already experienced. This is 2 days of Australia with Emanuel and Nada and there’s so much more. There is so much to tell, too much to put into words (hence the photos) but eventually I’ll get there.
+
+This is a thank you note for you guys. You’ve done so much for me and this is my modest and humble way of being thankful for your help and friendship. A few words and pictures are a small gesture but the intention behind them is immeasurable. I can’t thank you enough. 
+
+Next week I’ll be moving out to live with people who aren’t like you and have different qualities, different principles and lifestyle. I think this is for the best. You’ve made me too comfortable for my own sake and I appreciate that but to move on and grow I must get out of my comfort zone and go after what I came to find. I am sure you understand that and I’m looking forward to our next weekend adventures.
+
+With gratitude.
+
+L.
