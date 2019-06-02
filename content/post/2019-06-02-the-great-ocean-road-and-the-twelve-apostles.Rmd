@@ -1,0 +1,72 @@
+---
+title: the great ocean road and the twelve apostles
+author: Lucas C. Lima
+date: '2019-06-02'
+slug: the-great-ocean-road-and-the-twelve-apostles
+categories:
+  - personal
+tags:
+  - australia
+  - travel
+description: ''
+topics: []
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, out.width = '100%', fig.align = 'center')
+```
+
+__First posted 4 years ago__
+
+We had a break from uni. It lasted one weekend, I believe it was Easter. What this means is that everyone wants to go away, travel to Tasmania, Southeast Asia, New Zealand, whichever. Things that I should have done but instead I wanted to enjoy the beauties the great State of Victoria could offer.
+
+```{r, fig.cap="Kensington Station"}
+knitr::include_graphics("https://live.staticflickr.com/8758/16430633873_e05ccb8bf9_b_d.jpg")
+```
+
+Friday I took the train to go see Emanuel and Nada at their home and we left for the camp in Elmore. It wasn't the most adventurous things I've  done in my life but it was pretty fun. I got to meet new people and be one with the nature.
+
+```{r, fig.cap="Where I slept"}
+knitr::include_graphics("https://live.staticflickr.com/8706/17049341242_a2c5c11764_b_d.jpg")
+```
+
+Coincidentally one of the nights was the total Lunar Eclipse known as the Blood Moon.
+
+```{r, fig.cap="The 'blood' moon"}
+knitr::include_graphics("https://live.staticflickr.com/8719/17050840215_ac443d962b_b_d.jpg")
+```
+
+After returning from Elmore I got and invitation from a friend to go see [The Twelve Apostles](https://en.wikipedia.org/wiki/The_Twelve_Apostles_(Victoria)).
+
+So we I got on a motor home with two Americans and went to the Great Ocean Road.
+
+We spent a night at a camping site sleeping with loads of wild Kangaroos making weird noises and after an encounter with those scared animals to go to the bathroom went to the most mainstreamed touristic spot in Victoria and Australia. The Twelve Apostles
+
+```{r, fig.cap="The road to Port Campbell"}
+knitr::include_graphics("https://live.staticflickr.com/5327/17190612652_0f2412e47c_b_d.jpg")
+```
+
+The Twelve Apostle are actually 8, and after 2005, only 7. They are limestone formations that erode easily.
+
+```{r one, fig.cap="Not the twelve apostles"}
+knitr::include_graphics("https://live.staticflickr.com/8774/17191876051_8fe3bfc873_b_d.jpg")
+```
+
+```{r two, fig.cap="Still not them"}
+knitr::include_graphics("https://live.staticflickr.com/8773/17166861126_1f0628703d_b_d.jpg")
+```
+
+```{r, fig.cap="The 'Twelve' Apostles"}
+knitr::include_graphics("https://live.staticflickr.com/485/20018750355_17229df295_b_d.jpg")
+```
+
+Aside from the Twelve apostles there are loads of other named formations, shown in \@ref(fig:one) and \@ref(fig:two). There are a bunch of these limestones stacks and they all erode as the waves come and go. 
+
+
+One of the last formations that we could see in the park was the London Bridge. I really liked the semi symmetry it has and it's isolated from the rest of them. I spent some time appreciating the wave sounds and the breeze. It was a peaceful moment and I enjoyed it at the best I could.
+
+```{r londonbridge, fig.cap="London Bridge"}
+knitr::include_graphics("https://live.staticflickr.com/539/20024200721_843f4541c7_b_d.jpg")
+```
+
+After that my recently made american friends dropped me off in a city called Warrnambool, as they were continuing for Adelaide. Nothing much to do there if you don’t have enough time and a car. We tried to take the train back because it would be more confortable but there was no train back to Melbourne that day, so we had to settle for the bus. We took 3 hours to get back and I was so tired I didn't even took a shower before going to bed.

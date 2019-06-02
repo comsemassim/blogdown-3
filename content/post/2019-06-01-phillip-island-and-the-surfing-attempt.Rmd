@@ -12,6 +12,7 @@ description: '(and the pathetic timelapse)'
 knitr::opts_chunk$set(echo = FALSE, out.width = '100%', fig.align = 'center')
 ```
 
+__First posted 4 years ago__
 
 It was a common Saturday morning. I woke up, had breakfast and got ready to go to church. We went to the Polish church in Dandenong where the wedding was held a week ago. So far so good. Nothing out of the ordinary had happened.
 
@@ -44,4 +45,4 @@ knitr::include_graphics("https://live.staticflickr.com/445/20016302825_5bd759325
 
 For now that’s it. I’ll leave you with the shortest time-lapse ever created.
 
-<iframe src="https://player.vimeo.com/video/121430894" width="800" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://play<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/121430894?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>

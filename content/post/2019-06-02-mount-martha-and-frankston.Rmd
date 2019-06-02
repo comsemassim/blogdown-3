@@ -1,0 +1,37 @@
+---
+title: "mount martha and frankston"
+author: Lucas C. Lima
+date: '2019-06-02'
+slug: mount-martha-and-frankston
+categories: ["personal"]
+tags: ["australia","travel"]
+description: ''
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE, out.width = '100%', fig.align = 'center')
+```
+
+__First posted 4 years ago__
+
+The Brazilian guys and I took a Sunday to go to this beach on Mount Martha around 60km away from the city. It took us a tad more than 2 hours to get there. It was easy enough, just have to get the Frankston train in any of the Stations on the CBD and then get on the __781__ bus to Mount Martha on bay __4__ at Frankston Station. The train ride takes an hour and the bus a little more than that.
+
+To get to the “Pillars" you need to walk a little though, the bus won’t take you all the way and it’s a bit messy to find the exact coordinates so I’ll be a nice lad and post it here just to make your life easier. (38°16'35.8"S 144°59'59.6"E). Be mindful that to get there you’ll have to go down a slope that is not exactly "thong friendly” (wear appropriate shoes) so be careful if you are wearing havaianas or more delicate footwear. If you slip you will get hurt and probably also fall on the very cold water.
+
+```{r, fig.cap="The pillars"}
+knitr::include_graphics("https://live.staticflickr.com/8746/17152924176_c618856d51_b_d.jpg")
+```
+
+After I got down the first thing I wanted to do was jump but it seemed very shallow so I entered the water in the safest way possible so my mom wouldn’t be worried and swam to the jumping spots. They where about 2.50 meters deep so no worries about that. Climbing up was a somewhat easy task but even so I got some cuts and bruises.
+
+```{r, fig.cap="Frankston beach"}
+knitr::include_graphics("https://live.staticflickr.com/8723/16987135132_0190357180_b_d.jpg")
+```
+
+After eating and jumping and swimming and meeting some other Brazilians and jumping more, swimming more, eating more, getting sunburnt and whatnot we decided to leave because everyone was tired and aching for a comfy bed, so we left. Before getting on the train back to the city we stopped at the beach to see the sunset but it was taking too long so we gave up and went home, but not before eating some more.
+
+A couple of weeks later I made a video of the trip. It doesn't have the best quality in editing and photography but it shows this beautiful place better. 
+
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/124679817?title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
